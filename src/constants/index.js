@@ -51,11 +51,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Tech Enthusiast",
+      title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "CSE Undergrad",
+      title: "Tech Enthusiast",
       icon: creator,
     },
   ];
@@ -93,46 +93,70 @@ import {
       name: "git",
       icon: git,
     },
+    {
+      name:"Node js",
+      icon:nodejs
+    },
+    {
+      name:"MongoDB",
+      icon:mongodb,
+    },
+    {
+      name:"Backend",
+      icon:backend,
+    }
     
     
   ];
   
   const experiences = [
     {
-      title: "AI ChatBot",
+      title: "Movie-Mania",
       iconBg: "#383E56",
       points: [
-        "Frontend Development: Created using HTML and CSS for structure and styling, providing an interactive interface for users.",
-        "User Interaction: JavaScript handles user input and displays chatbot responses dynamically.",
-        "Real-time Communication: The chatbot delivers real-time, context-aware responses using AI models from the Google Gemini API."
+        "React.js & CSS: Built with React.js for a dynamic UI and styled using responsive CSS.",
+        "Movie API Integration: Fetches real-time movie data from a public API for search and detailed view." ,
+        "Watch Later with LocalStorage: Allows users to save movies to a 'Watch Later' list using browser's LocalStorage."
+        "Link : aditya-sharma183portfolio.netlify.app"
       ],
         
     },
     {
-      title: "Weather-API",
+      title: "Video-tube",
       iconBg: "#E6DEDD",
       points: [
-         " Displays current temperature, humidity, wind speed, etc.",
-         " Dynamic background and styling based on weather conditions.",
-         " API: Uses a weather API to retrieve accurate and up-to-date data."
+         "Tech Stack: Built with Node.js, Express.js, MongoDB, and Mongoose for scalable backend services.",
+         "Core Features: Provides APIs for user auth (JWT & Bcrypt), video upload (Multer & Cloudinary), comments, likes, playlists, and subscriptions.",
+         "Configuration: Utilizes dotenv for environment variables and secure configuration."
+         "Link: https://github.com/adityasharma183/Video_Tube"
       ],
     },
     {
-      title: "Edu-Tech",
+      title: "AI Chat-Bot",
       iconBg:"#E6DEDD",
       points: [
-        "Technologies Used: HTML, CSS, SMACSS (Scalable and Modular Architecture for CSS).",
-        "Purpose: Provides online educational resources and tools for students.",
-        "UI: Clean, intuitive interface designed for easy navigation."
-
-         
+        "Frontend Technologies: The chatbot interface is built using HTML, CSS, and JavaScript, ensuring a responsive and interactive user experience.",
+        "AI Integration: Powered by Google Gemini API, the chatbot processes natural language input and provides intelligent, conversational responses.",
+        "User Interaction: Designed for real-time communication, the chatbot can handle various queries, offering dynamic and context-aware assistance.",
+        " Link : aixchatbot.netlify.app"
       ],
     },
     {
       title: "World-info",
       iconBg:"#E6DEDD",
       points: [
-        "This project aims to create a comprehensive web application providing detailed information about every country in the world, built using React, CSS, JavaScript, and the Axios API."
+        "This project aims to create a comprehensive web application providing detailed information about every country in the world, built using React, CSS, JavaScript, and the Axios API.",
+        "Link :world-adi.netlify.app"
+      ],
+    },
+    {
+      title: "Portfolio",
+      iconBg:"#E6DEDD",
+      points: [
+        "Modern Tech Stack: Built using React.js, React Three Fiber, Three.js, and Framer Motion for an interactive and visually rich experience. ",
+        "Responsive Design: Ensures a smooth, adaptive layout across all devices with dynamic animations and 3D elements.",
+        "Component-Driven: Utilizes React.js for efficient state management and modular, maintainable code structure.",
+        "Link : aditya-sharma183portfolio.netlify.app"
       ],
     },
   ];

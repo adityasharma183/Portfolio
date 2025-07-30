@@ -41,7 +41,7 @@ const About = () => {
     </motion.div>
    <motion.p variants={fadeIn("","",0.1,1)}
    className='mt-4 text-[17px] text-secondary max-w-3xl leading-[30px]'>
-   I'm a third-year computer engineering student with a big passion for web development. I love turning ideas into engaging and functional web experiences. I’ve got hands-on experience with the tools that make this happen—HTML, CSS, JavaScript, React.
+   I'm a last-year computer engineering student with a big passion for web development. I love turning ideas into engaging and functional web experiences. I’ve got hands-on experience with the tools that make this happen—HTML, CSS, JavaScript, React,Express.js,Node.js,MongoDB etc.
 
    </motion.p>
    <div className='mt-20 flex flex-wrap gap-10'>
